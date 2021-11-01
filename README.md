@@ -9,4 +9,6 @@ The components can be classified into 3 tiers; the frontend, the middle and the 
 
 React.js: This is top tier of the web framework, which allows javascript framework to be used to create dynamic client side applications in HTML. React is best known for handling data-driven interfaces with minimal code.
 
-Express.js and Node.js are considered the middle the server-side framework. The Express.js is embedded inside the Node.js server-side and is capable of
+Express.js and Node.js are considered the middle the server-side framework. The Express.js is embedded inside the Node.js server-side and is capable of using powerful tools embedded in it for URL routing and handling HTTP requests and responses.
+
+MongoDB is the final tier; this allows applications to store information 
