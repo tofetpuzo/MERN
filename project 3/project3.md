@@ -12,3 +12,10 @@ After this step, I went on to get the location of Node.js software from Ubuntu r
 `curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -`
 
 The next step is to install Node.js after obtaining the key, this was done with this code: 
+
+`sudo apt-get install -y nodejs`
+
+I verified that node.js is running, screenshot below.
+
+![node](./images/update.png)
+
