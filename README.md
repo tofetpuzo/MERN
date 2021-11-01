@@ -11,4 +11,4 @@ React.js: This is top tier of the web framework, which allows javascript framewo
 
 Express.js and Node.js are considered the middle the server-side framework. The Express.js is embedded inside the Node.js server-side and is capable of using powerful tools embedded in it for URL routing and handling HTTP requests and responses.
 
-MongoDB is the final tier; this allows applications to store information 
+MongoDB is a database and the final tier for web framework ; this allows applications to store information such as user profiles, contents, comments, uploads and events. The MongoDB stores information in JSON format which comes from REACT.js frontend side sent through the Express.js server, where they are processed and sent directly to MongDB for retrieval later. 
