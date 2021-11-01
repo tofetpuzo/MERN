@@ -22,4 +22,10 @@ I verified that node.js is running, screenshot below.
 I also verified that npm was also correctly installed.
 ![node](./images/npm.png)
 
-Now that I have confirmed that the node.js is installed, I then proceed to initialize my project, using the npm init. This will allow a package.json file to be created. This file contains information about the application and dependencies required for applications to run smoothly 
+Now that I have confirmed that the node.js is installed, I then proceed to initialize my project, using this code:
+
+ `npm init`. 
+ 
+ This will allow a package.json file to be created. This file contains information about the application and dependencies required for applications to run smoothly.
+
+ ![node](./images/ins.png)
