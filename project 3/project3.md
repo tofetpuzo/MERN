@@ -26,6 +26,8 @@ Now that I have confirmed that the node.js is installed, I then proceed to initi
 
  `npm init`. 
  
- This will allow a package.json file to be created. This file contains information about the application and dependencies required for applications to run smoothly.
+ This will allow a package.json file to be created. The file contains information about the application and dependencies required for applications to run smoothly.
 
  ![node](./images/ins.png)
+
+ 
