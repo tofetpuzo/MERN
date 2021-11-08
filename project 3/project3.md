@@ -54,4 +54,22 @@ After this I went on to install dotenv which is just a dependency file used to s
 The screenshot is below
 ![express](./images/expressworks.png)
 
-After making sure that my Todo app has been successfully configured to listen on a port in the server, I went on to create a routes folder; this folder contains what the app will do like get, post and delete , the code was written in an 
+After making sure that my Todo app has been successfully configured to listen on a port in the server, I went on to create a routes folder; this folder contains what the app will do like get, post and delete. A file called the api.js was created and the code that will be used to execute those functions were placed in the file. 
+
+`:~ $ mkdir routes`
+
+`:~ $ cd routes`
+
+`:~ $ touch api.js`
+
+The next step is to create a model; usually the heart of JavaScript which is used to make the Todo app interactive.
+
+After which I install mongoose using the command:
+
+`:~ $ npm install mongoose`
+
+The next step is to create a directory called models, and create a file called todo.js. I used this line of code to execute these aforementioned steps.
+
+`:~ $ mkdir models && cd models && touch todo.js`
+
+After which i did edit the 
