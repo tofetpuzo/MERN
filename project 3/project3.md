@@ -53,3 +53,5 @@ After this I went on to install dotenv which is just a dependency file used to s
 
 The screenshot is below
 ![express](./images/expressworks.png)
+
+After making sure that my Todo app has been successfully configured to listen on a port in the server, I went on to create a routes folder; this folder contains what the app will do like get, post and delete , the code was written in an 
