@@ -30,6 +30,10 @@ Now that I have confirmed that the node.js is installed, I then proceed to initi
 
  ![node](./images/ins.png)
 
+
+ ## Installing Express
+ ___
+ 
 The next step is to install express which is a framework used in node.js and create an index file. To do this i used the commands below:
 
 `:~ $ npm install express` 
@@ -64,6 +68,10 @@ After making sure that my Todo app has been successfully configured to listen on
 
 The next step is to create a model; usually the heart of JavaScript which is used to make the Todo app interactive.
 
+
+ ## Configuring MongoDB
+ ___ 
+
 After which I install mongoose using the command:
 
 `:~ $ npm install mongoose`
@@ -72,4 +80,4 @@ The next step is to create a directory called models, and create a file called t
 
 `:~ $ mkdir models && cd models && touch todo.js`
 
-After which i did edit the 
+After which i did edited the api.js which now contains the router information such as get, delete and post.
