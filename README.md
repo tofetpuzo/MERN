@@ -14,4 +14,4 @@ Express.js and Node.js are considered the middle the server-side framework. The 
 MongoDB is a database and the final tier for web framework ; this allows applications to store information such as user profiles, contents, comments, uploads and events. The MongoDB stores information in JSON format which comes from REACT.js frontend side sent through the Express.js server, where they are processed and sent directly to MongDB for retrieval later. 
 
 1. Contributors
-2. Temitope Temiola
+2. Temitope Temiola 
