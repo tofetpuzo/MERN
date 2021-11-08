@@ -44,7 +44,7 @@ After this I went on to install dotenv which is just a dependency file used to s
 
 `:~ $ nano index.js`
 
- ![node](./images/servers.png)
+ ![node](./images/ser.png)
 
  After running this , I ran this command to check if the server will be listening on 3000.
 
