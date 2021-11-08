@@ -52,4 +52,4 @@ After this I went on to install dotenv which is just a dependency file used to s
 `:~ $ node index.js`
 
 The screenshot is below
-![express](./expressworks.png)
+![express](./images/expressworks.png)
