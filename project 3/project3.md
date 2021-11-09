@@ -66,7 +66,7 @@ After making sure that my Todo app has been successfully configured to listen on
 
 `:~ $ touch api.js`
 
-The next step is to create a model; usually the heart of JavaScript which is used to make the Todo app interactive.
+The next step is to create a model; this is usually considered the heart of JavaScript which is used to make the Todo app more interactive.
 
 
  ### Creating a Schema and a model
