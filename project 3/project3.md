@@ -142,10 +142,42 @@ The first step is to use the create-react-app command to scaffold our app:
 `:~ $  npx create-react-app client`
 
 
-After this I installed concurrently, this is used to run more than one command simultaneously , I did this using the command. :
+Second step was to install concurrently, this is used to run more than one command simultaneously , I did this using the command. :
 
 `:~ $  npm install concurrently --save-dev`
 
 The next step is to install nodemon, It is used to run and monitor the server. If there be any changes committed , nodemon will automatically load the changes. To do this I used this command:
 
 `:~ $  npm install nodemon --save-dev`
+
+After this, I changed directory to package.json where I inserted code to specified a no error test and integrated concurrently. To configure the client I changed the directory and edited the package.json file from there adding the value pair key into it. I following commands were used.
+
+`:~ $  cd client`
+
+`:~ $  vi package.json`
+
+// Add key value pair. The main reason for this is to have access to the application directly through the browser.
+"proxy": "http://localhost:5000".
+
+To run the application, I used this command below, this allows it run on localhost using port range 3000.
+
+ ## Creating React Components
+ ___ 
+
+The next step is to the create react components; one of the advantages of using react is that , the components are reusable and also makes code modular.
+
+To create the components below are the line of code used:
+
+`:~ $  cd client`
+
+`:~ $  cd src`
+
+`:~ $  mkdir components`
+
+`:~ $  cd components`
+
+The following code was used to create different files which was used to code.
+
+`:~ $  touch Input.js ListTodo.js Todo.js`
+
+For each of this file , I wrote lines of code to build the application. Now that I have successfully 
