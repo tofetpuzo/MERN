@@ -90,3 +90,9 @@ To store information in the todo app, I need a database: MongoDB. This database 
 
 Now that I have a working database, I then proceed to create an .env file: This file contains information about the MongDB credentials.
 The next step is to edit to index.js file to reflect the .env file which will be used by node.js to connect to the MongoDB.
+
+The use of environment variables to store information was solely done in other to secure the configuration and secret data for the application, as against writing connection strings directly to the index.js file.
+
+After this configuration, I ran the file to see if the database has been successfuly configured.
+
+
