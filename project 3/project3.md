@@ -71,11 +71,11 @@ The next step is to create a model; this is usually considered the heart of Java
 
  ### Creating a Schema and a model
  ___
-After which I install mongoose using the command:
+After which I installed mongoose using the command:
 
 `:~ $ npm install mongoose`
 
-The mongoose makes working with node.js easier. Now the interesting part is to is to create a directory called models, and create a file called todo.js. I used this line of code to execute these aforementioned steps.
+The mongoose makes working with node.js easier. Now the interesting part is to create a directory called models, and create a file called todo.js. I used this line of code to execute these aforementioned steps.
 
 `:~ $ mkdir models && cd models && touch todo.js`
 
@@ -84,7 +84,7 @@ After which i did edited the api.js which now contains the router information su
  ## Configuring MongoDB
  ___ 
 
-To store information in the todo app, I need a database: MongoDB. This database is a non-relational database. The next step is to create a MongoDB database and collection inside mLab, usually called Cluster. 
+To store information in the todo app, I needed to use a database: MongoDB. This database is a non-relational database. The next step is to create a MongoDB database and collection inside mLab, usually called Cluster. 
 
 ![MDB](./images/mongo.png)
 
@@ -93,7 +93,7 @@ The next step is to edit to index.js file to reflect the .env file which will be
 
 The use of environment variables to store information was solely done in other to secure the configuration and secret data for the application, as against writing connection strings directly to the index.js file.
 
-After this configuration, I ran the file to see if the database did run successfully configured.
+After this configuration, I ran the file to see if the database was successfully configured.
 
 ![MDB](./images/database.png)
 
@@ -101,7 +101,7 @@ After this configuration, I ran the file to see if the database did run successf
  ## Using Postman
  ___ 
 
-Now that I have configured my backend , I intend to use ReactJS code to achieve this. But before doing this, it is important to test code using RESTful API. I used postman to create a POST request; this sends request to the server, and the server in turn calls on the database to fetch the requested data. I also certain if I could use the GET and DELETE request. The Screenshots below:
+Now that I have configured my backend , I intend to use ReactJS code to achieve this. But before doing this, it is important to test code using RESTful API. I used postman to create a POST request; this sends request to the server, and the server in turn calls on the database to fetch the requested data. I also ascertained that I could test the GET and DELETE request. The Screenshots below:
 
 The Post request:
 
@@ -117,8 +117,7 @@ The GET Request successfully executed
 
 
 
-The DELETE request was executed successfully using the 
-id produced by Postman.
+The DELETE request was executed successfully using the id assigned by Postman.
 
 
 
@@ -136,13 +135,13 @@ After the DELETE Request, I used the GET request to test if the DELETE request w
 
 After successfully configuring the backend API, The next step is to create a user interface for Web client to interact via the API. 
 
-The first step is to use the create-react-app command to scaffold our app:
+The first step is to use the create-react-app command to scaffold my app:
 
 
 `:~ $  npx create-react-app client`
 
 
-Second step was to install concurrently, this is used to run more than one command simultaneously , I did this using the command. :
+Second step was to install concurrently, this is used to run more than one command simultaneously , I did use this command:
 
 `:~ $  npm install concurrently --save-dev`
 
@@ -150,7 +149,8 @@ The next step is to install nodemon, It is used to run and monitor the server. I
 
 `:~ $  npm install nodemon --save-dev`
 
-After this, I changed directory to package.json where I inserted code to specified a no error test and integrated concurrently. To configure the client I changed the directory and edited the package.json file from there adding the value pair key into it. I following commands were used.
+After this, I changed directory to package.json where I inserted code to specified a no error test and integrated concurrently. 
+To configure the client I changed the directory and edited the package.json file from there, adding the value pair key into it. The following commands were used.
 
 `:~ $  cd client`
 
@@ -159,12 +159,12 @@ After this, I changed directory to package.json where I inserted code to specifi
 // Add key value pair. The main reason for this is to have access to the application directly through the browser.
 "proxy": "http://localhost:5000".
 
-To run the application, I used this command below, this allows it run on localhost using port range 3000.
+To run the application, I used this command below, this allows it run on localhost using port range 3000. I also had to create a security group on the EC2 virtual machine using the inbound rule on my AWS account setting protocol to TCP and port range to 3000. 
 
  ## Creating React Components
  ___ 
 
-The next step is to the create react components; one of the advantages of using react is that , the components are reusable and also makes code modular.
+The next step is to the create react components; one of the advantages of using react is that, the components are reusable and also makes code modular.
 
 To create the components below are the line of code used:
 
@@ -176,7 +176,7 @@ To create the components below are the line of code used:
 
 `:~ $  cd components`
 
-The following code was used to create different files which was used to code.
+The following code was used to create different files which was used to create the application.
 
 `:~ $  touch Input.js ListTodo.js Todo.js`
 
