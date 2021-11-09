@@ -131,3 +131,17 @@ id produced by Postman.
 After the DELETE Request, I used the GET request to test if the DELETE request was executed. Screenshot below:
 
 ![po4](./images/s5.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
