@@ -180,4 +180,23 @@ The following code was used to create different files which was used to code.
 
 `:~ $  touch Input.js ListTodo.js Todo.js`
 
-For each of this file , I wrote lines of code to build the application. Now that I have successfully 
+For each of this file , I wrote lines of code that will be used to build the application. Now that I have successfully done that. I installed axios which is a promised based HTTP client for the browser and node.js.
+
+To install this, I had to change directory to the client folder. 
+
+`:~ $  cd client`
+
+`:~ $  npm install axios`
+
+
+Finally , I changed directory to the Todo directory where I did run this command to start the server and run the app on my client side.
+
+`:~ $  npm run dev`
+
+Screenshot below:
+
+![po1](./images/serveruns.png)
+
+The application is fully functional on the client side.
+
+![po1](./images/pro3.png)
