@@ -98,7 +98,36 @@ After this configuration, I ran the file to see if the database did run successf
 ![MDB](./images/database.png)
 
 
- ## Frontend Development
+ ## Using Postman
  ___ 
 
-Now that I have configured my backend , I used ReactJS code to achieve this. But before doing this, it is important to test code using RESTful API. 
+Now that I have configured my backend , I intend to use ReactJS code to achieve this. But before doing this, it is important to test code using RESTful API. I used postman to create a POST request; this sends request to the server, and the server in turn calls on the database to fetch the requested data. I also certain if I could use the GET and DELETE request. The Screenshots below:
+
+The Post request:
+
+![po](./images/s1.png)
+
+![po1](./images/s2.png)
+
+
+
+The GET Request successfully executed
+
+![po2](./images/s3.png)
+
+
+
+The DELETE request was executed successfully using the 
+id produced by Postman.
+
+
+
+![po3](./images/s4.png)
+
+
+
+
+
+After the DELETE Request, I used the GET request to test if the DELETE request was executed. Screenshot below:
+
+![po4](./images/s5.png)
