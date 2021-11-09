@@ -69,15 +69,19 @@ After making sure that my Todo app has been successfully configured to listen on
 The next step is to create a model; usually the heart of JavaScript which is used to make the Todo app interactive.
 
 
- ## Configuring MongoDB
- ___ 
-
+ ### Creating a Schema and a model
+ ___
 After which I install mongoose using the command:
 
 `:~ $ npm install mongoose`
+
+The mongoose allows working with node.js. 
 
 The next step is to create a directory called models, and create a file called todo.js. I used this line of code to execute these aforementioned steps.
 
 `:~ $ mkdir models && cd models && touch todo.js`
 
-After which i did edited the api.js which now contains the router information such as get, delete and post.
+After which i did edited the api.js which now contains the router information such as get, delete and post. 
+
+ ## Configuring MongoDB
+ ___ 
