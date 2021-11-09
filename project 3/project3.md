@@ -75,9 +75,7 @@ After which I install mongoose using the command:
 
 `:~ $ npm install mongoose`
 
-The mongoose allows working with node.js. 
-
-The next step is to create a directory called models, and create a file called todo.js. I used this line of code to execute these aforementioned steps.
+The mongoose makes working with node.js easier. Now the interesting part is to is to create a directory called models, and create a file called todo.js. I used this line of code to execute these aforementioned steps.
 
 `:~ $ mkdir models && cd models && touch todo.js`
 
@@ -85,3 +83,10 @@ After which i did edited the api.js which now contains the router information su
 
  ## Configuring MongoDB
  ___ 
+
+To store information in the todo app, I need a database: MongoDB. This database is a non-relational database. The next step is to create a MongoDB database and collection inside mLab, usually called Cluster. 
+
+![MDB](./images/mongo.png)
+
+Now that I have a working database, I then proceed to create an .env file: This file contains information about the MongDB credentials.
+The next step is to edit to index.js file to reflect the .env file which will be used by node.js to connect to the MongoDB.
