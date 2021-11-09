@@ -139,17 +139,5 @@ After the DELETE Request, I used the GET request to test if the DELETE request w
 After successfully configuring the backend API, The next step is to create a user interface for Web client to interact via the API. 
 
 The first step is to use the create-react-app command to scaffold our app:
-=======
 
-
-
-
-
-
-
-
-
-
-
->>>>>>> 5c2deef8e9aff15996754741bc1423141b4b7f94
 
