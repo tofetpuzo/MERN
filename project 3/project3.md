@@ -139,3 +139,13 @@ After successfully configuring the backend API, The next step is to create a use
 The first step is to use the create-react-app command to scaffold our app:
 
 
+`:~ $  npx create-react-app client`
+
+
+After this I installed concurrently, this is used to run more than one command simultaneously , I did this using the command. :
+
+`:~ $  npm install concurrently --save-dev`
+
+The next step is to install nodemon, It is used to run and monitor the server. If there be any changes committed , nodemon will automatically load the changes. To do this I used this command:
+
+`:~ $  npm install nodemon --save-dev`
