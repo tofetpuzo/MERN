@@ -127,7 +127,15 @@ id produced by Postman.
 
 
 
-
 After the DELETE Request, I used the GET request to test if the DELETE request was executed. Screenshot below:
 
 ![po4](./images/s5.png)
+
+
+ ## Creating Frontend Application
+ ___ 
+
+After successfully configuring the backend API, The next step is to create a user interface for Web client to interact via the API. 
+
+The first step is to use the create-react-app command to scaffold our app:
+
