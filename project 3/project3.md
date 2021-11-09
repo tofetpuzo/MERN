@@ -131,8 +131,6 @@ After the DELETE Request, I used the GET request to test if the DELETE request w
 
 ![po4](./images/s5.png)
 
-
-<<<<<<< HEAD
  ## Creating Frontend Application
  ___ 
 
