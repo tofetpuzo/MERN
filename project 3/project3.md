@@ -98,4 +98,7 @@ After this configuration, I ran the file to see if the database did run successf
 ![MDB](./images/database.png)
 
 
+ ## Frontend Development
+ ___ 
 
+Now that I have configured my backend , I used ReactJS code to achieve this. But before doing this, it is important to test code using RESTful API. 
